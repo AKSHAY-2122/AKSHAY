@@ -1,0 +1,70 @@
+<!HTMLDOC html>
+<html>
+<head>
+<title> COLLEGE ADMISSION FORM </title>
+<h1> ADMISSION FORM </h1>
+</head>
+<body>
+
+<form> 
+
+<lable for = "firstname"> First name </lable> <br>
+<input type="text" id="First name" name="First name" value="eg:Akshay" autofocus> <br> <br>
+
+<lable for = "lastname"> Last name </lable> <br>
+<input type="text" id="Last name" name="Last name" value="eg:GV"> <br> <br>
+
+<lable for ="Father name"> father's name </lable> <br>
+<input type="text" id="Father's name" name="Father name" value="eg:Govindasamy"> <br> <br>
+
+<lable for="Gender"> Gender </lable> <br>
+<input type="radio" id="gender" name="gender"value="Male"/>Male <br>
+<input type="radio" id="gender" name="gender"value="Female"/>Female <br>
+<input type="radio" id="gender" name="gender"value="Others"/>Others <br> <br>
+
+
+
+<lable for="Course name"> Course name </lable> <br>
+<input list="courses"required>
+<datalist id="courses">
+<option value="ECE">
+<option value="EEE">
+<option value="CSE">
+<option value="IT">
+<option value="AIDS">
+<option value="AIML">
+<option value="IOT">
+<option value="CYBER">
+<option value="MECH">
+<option value="CIVIL">
+</datalist> <br> <br>
+
+
+<lable for = "DOB"> DOB (before 01/06/2005) </lable> <br>
+<input type="date" id="DOB" name="DOB"> <br> <br>
+
+<lable for= "Age"> Age </lable> <br>
+<input type="number" id="Age" name"Age" size="2" max="25" min="17" > <br> <br>
+
+
+<lable for="Contact number"> Contact number </lable> <br>
+<input type="password" id="Contact number" name="Contact number" size="10" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}"> <br> <br>
+
+<lable for="Aadhar number"> Aadhar number </lable> <br>
+<input type="number" id="Aadhar number" name="Aadhar number" size="12" placeholder="1234-5678-9000" pattern="[0-9]{4}-[0-9]{4}-[0-9{4}"> <br> <br>
+
+<lable for="Quota"> Quota</lable> <br>
+<input type="checkbox" id="Quota" name="Quota"value="Govt"/>Govt <br>
+<input type="checkbox" id="Quota" name="Quota"value="Management"/>Management
+
+<br> <br>
+
+
+
+
+
+<input type="submit" value="SUBMIT">
+
+
+
+</body>
